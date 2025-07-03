@@ -28,7 +28,7 @@ class AssignPermissionToRole extends Component
         if ($fromQuery && Role::where('name', $fromQuery)->exists()) {
             $this->selectedRole = $fromQuery;
             $this->loadPermissions();
-            $this->showForm = true; // buka form kalau dari query
+            $this->showForm = true; 
         }
     }
 
