@@ -16,9 +16,8 @@
 5. this project include alpine.js, tailwindcss, and more . So need to run : npm install && npm run build
 6. Start the laravel server : php artisan serve.
 
-important
-- for CMS : change SESSION_DRIVER on .env to "SESSION_DRIVER=file"
-- for API : change SESSION_DRIVER on .env to "SESSION_DRIVER=database" 
+important :
+Postman Live / Postman API documentations : https://documenter.getpostman.com/view/26950655/2sB34bLNyN
 
 ## Learning Laravel
 
